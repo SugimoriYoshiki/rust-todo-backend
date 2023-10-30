@@ -1,0 +1,8 @@
+{
+  "[rust]": {
+    "editor.formatOnSave": true
+  },
+  "rust-analyzer.checkOnSave": true,
+  "rust-analyzer.check.command": "clippy",
+  "rust-analyzer.check.extraArgs": ["--", "-A", "clippy::needless_return"]
+}
